@@ -1,0 +1,37 @@
+## Interface: 11200
+## Title: AbstractzFrames
+## Notes: Vanilla 1.12 PvP combat tracking addon
+## SavedVariables: AzFDB
+
+core\Namespace.lua
+core\EventBus.lua
+core\Slash.lua
+core\Router.lua
+core\Driver.lua
+core\Player.lua
+data\DB.lua
+data\SpellDB.lua
+data\SpellDB_Entries.lua
+data\ZoneData.lua
+state\SpellState.lua
+state\ExpiryIndex.lua
+state\ActiveFrames.lua
+features\Cooldowns.lua
+features\DR.lua
+features\Auras.lua
+features\Casts.lua
+bindings\Target.lua
+bindings\Nameplates.lua
+render\DisplayList.lua
+render\Border.lua
+render\IconFactory.lua
+render\TargetRenderer.lua
+render\ReverseSweep.lua
+render\TimerText.lua
+render\IconFill.lua
+render\TargetPortraitRenderer.lua
+render\CastBar.lua
+render\NameplateRenderer.lua
+render\VisualSync.lua
+testing\Mock.lua
+AbstractzFrames.lua
